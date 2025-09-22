@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anwar Ali - Resume</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    h1 {
+      font-family: 'Garamond', serif;
+      color: #2b3a67;
+    }
+    .section-title {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+      margin-bottom: 15px;
+    }
+    body {
+      background-color: #f9f9f9;
+    }
+    .resume-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container resume-container">
+    <div class="row">
+      <!-- Left Column -->
+      <div class="col-md-4">
+        <h1>Anwar Ali</h1>
+        <p><strong>Mobile:</strong> +923169139717</p>
+        <p><strong>Email:</strong> mranwaraliyousafzai@gmail.com</p>
+
+        <h5 class="section-title">Technical Skills</h5>
+        <ul>
+          <li>Windows Server (AD, DNS, DHCP, Group Policy)</li>
+          <li>Linux (RHEL, CentOS)</li>
+          <li>Routing, Switching, VLANs, VPN</li>
+          <li>Firewall Configuration, System Hardening</li>
+          <li>PowerShell, Bash</li>
+          <li>VMware, Hyper-V</li>
+        </ul>
+
+        <h5 class="section-title">Certifications</h5>
+        <ul>
+          <li>Cisco Certified Network Associate (CCNA)</li>
+          <li>Microsoft Certified Solutions Expert (MCSE)</li>
+          <li>RHCSA Training – Kodekloud</li>
+        </ul>
+
+        <h5 class="section-title">Education</h5>
+        <p>Bachelor of Information Technology<br>
+           The University of Agriculture Peshawar</p>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-8">
+        <h5 class="section-title">Career Summary</h5>
+        <p>
+          IT professional with 1+ years of hands-on experience in Microsoft, Linux, and networking technologies.
+          Skilled in Windows Server administration, Active Directory, and enterprise networking gained through
+          MCSE and CCNA expertise. Proficient in Linux server deployment, troubleshooting, and security hardening.
+          Adept at managing hybrid environments, configuring network infrastructure, and supporting high-availability systems.
+        </p>
+
+        <h5 class="section-title">Professional Experience</h5>
+        <h6>CoreLinks IT Solution - System Administrator</h6>
+        <ul>
+          <li>Installed, configured, and administered Linux servers (RHEL, CentOS).</li>
+          <li>Managed users, groups, permissions, and security policies.</li>
+          <li>Automated tasks with Bash scripting (backups, monitoring).</li>
+          <li>Configured DNS, DHCP, NFS, SSH, and VPN.</li>
+          <li>Applied SELinux, firewall rules, and intrusion detection.</li>
+          <li>Deployed Apache and Nginx servers.</li>
+          <li>Integrated Linux and Windows systems in hybrid environments.</li>
+          <li>Configured routers, switches, VLANs, and VPN tunnels.</li>
+          <li>Documented system processes and troubleshooting steps.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
